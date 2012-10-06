@@ -1,9 +1,19 @@
-{% if latest_poll_list %}
-    <ul>
-    {% for poll in latest_poll_list %}
-        <li><a href="/polls/{{ poll.id }}/">{{ poll.question }}</a></li>
-    {% endfor %}
-    </ul>
-{% else %}
-    <p>No polls are available.</p>
-{% endif %}
+<!DOCTYPE html>
+<head>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
+<title>Aging Candidate</title>
+</head>
+<body>
+<ul class="statement-list">
+    <li>Statement 1</li>
+    <li>Statement 2</li>
+    <li>Statement 3</li>
+    <li>Statement 4</li>
+    <li>Statement 5</li>
+    <li>Statement 6</li>
+    <li>Statement 7</li>
+    <li>Statement 8</li>
+</ul>
+</body>
+</HTML>
