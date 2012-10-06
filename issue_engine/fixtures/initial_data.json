@@ -1,0 +1,146 @@
+[
+    {
+        "pk": 1,
+        "model": "issue_engine.topic",
+        "fields": {
+            "name": "abortion"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "issue_engine.topic",
+        "fields": {
+            "name": "afghanistan"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "issue_engine.topic",
+        "fields": {
+            "name": "economy"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "issue_engine.topic",
+        "fields": {
+            "name": "education"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "issue_engine.topic",
+        "fields": {
+            "name": "energy"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "issue_engine.topic",
+        "fields": {
+            "name": "environment"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "issue_engine.topic",
+        "fields": {
+            "name": "foreign policy"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "issue_engine.topic",
+        "fields": {
+            "name": "government spending"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "issue_engine.topic",
+        "fields": {
+            "name": "gun control"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "issue_engine.topic",
+        "fields": {
+            "name": "Health Care"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "issue_engine.topic",
+        "fields": {
+            "name": "Immigration"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "issue_engine.topic",
+        "fields": {
+            "name": "Iran"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "issue_engine.topic",
+        "fields": {
+            "name": "Jobs"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "issue_engine.topic",
+        "fields": {
+            "name": "Medicare"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "issue_engine.topic",
+        "fields": {
+            "name": "Military Spending"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "issue_engine.topic",
+        "fields": {
+            "name": "Same-sex marriage"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "issue_engine.topic",
+        "fields": {
+            "name": "Social Security"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "issue_engine.topic",
+        "fields": {
+            "name": "Taxes"
+        }
+    },
+    {
+        "pk": 1,
+        "model": "issue_engine.candidate",
+        "fields": {
+            "name": "obama",
+            "full_name": "Barack Obama",
+            "wp_url": "http://www.washingtonpost.com/politics/barack-obama/gIQAp4524O_topic.html"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "issue_engine.candidate",
+        "fields": {
+            "name": "romney",
+            "full_name": "Mitt Romney",
+            "wp_url": "http://www.washingtonpost.com/politics/mitt-romney/gIQA3p0t9O_topic.html"
+        }
+    }
+]
