@@ -1,11 +1,14 @@
 {% extends "base.html" %}
 
-{% block title %}My amazing blog{% endblock %}
+{% block title %}Aging Candidate{% endblock %}
 
 {% block content %}
 <ul class="statement-list">
-{% for statement in issue_statements %}
-    <li>{{ statement.text }}</li>
+{% for issue in issues %}
+    <h1>{{ issue }}</h1>
+    {% for statement in issue_statements %}
+        <li>{{ statement.text }}</li>
+    {% endfor %}
 {% endfor %}
 {% endblock %}
 </ul>
