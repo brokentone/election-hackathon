@@ -1,19 +1,13 @@
-<!DOCTYPE html>
-<head>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
-<title>Aging Candidate</title>
-</head>
-<body>
+{% extends "base.html" %}
+
+{% block title %}My amazing blog{% endblock %}
+
+{% block content %}
 <ul class="statement-list">
-    <li>Statement 1</li>
-    <li>Statement 2</li>
-    <li>Statement 3</li>
-    <li>Statement 4</li>
-    <li>Statement 5</li>
-    <li>Statement 6</li>
-    <li>Statement 7</li>
-    <li>Statement 8</li>
+{% for statement in issue_statements %}
+    <li>{{ statement.text }}</li>
+{% endfor %}
+{% endblock %}
 </ul>
 </body>
 </HTML>
