@@ -13,7 +13,7 @@ class Candidate(models.Model):
 class Statement(models.Model):
     wp_id = models.IntegerField()
     wp_url = models.CharField(max_length=100)
-    question = models.CharField(max_length=200)
+    text= models.CharField(max_length=200)
     date = models.DateTimeField('date spoken')
     topic = models.ForeignKey(Topic)
     candidate = models.ForeignKey(Candidate)
