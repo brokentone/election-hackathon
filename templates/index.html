@@ -3,14 +3,14 @@
 {% block title %}Aging Candidate{% endblock %}
 
 {% block content %}
+It works!
 <ul class="statement-list">
 {% for issue in issues %}
+    <h1>I am getting issues</h1>
     <h1>{{ issue }}</h1>
-    {% for statement in issue_statements %}
-        <li>{{ statement.text }}</li>
+    {% for statement in statements %}
+        <li>{{ statement }}</li>
     {% endfor %}
 {% endfor %}
-{% endblock %}
 </ul>
-</body>
-</HTML>
+{% endblock %}
