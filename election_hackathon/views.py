@@ -1,4 +1,4 @@
-from django.template import Context, loader
+from django.template import RequestContext, Context, loader
 from issue_engine.models import Statement 
 from django.http import HttpResponse
 from django.shortcuts import render_to_response
@@ -14,6 +14,5 @@ def home(request):
 def indextest(request):
     issues = ['Economy', 'Govt Spending', 'Energy']
     statements = ['Mitt said', 'Obama said']
-    return render_to_response('templates/index.html',
-        {"issues": issues},
-        {"statements": statements}, context_instance=RequestContext(request))
+    return render_to_response('index.html',
+        {'issues': issues, 'statements':statements,}, context_instance=RequestContext(request))
