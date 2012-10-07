@@ -3,7 +3,14 @@
 {% block title %}Aging Candidate{% endblock %}
 
 {% block content %}
+<<<<<<< HEAD
 <form name="rank_statements" action="no_idea" method="post">
+=======
+<form name="rank_statements" id="rank_statements" action="no_idea" method="post">
+It works!
+{% for issue in issues %}
+    {{ issue }}
+>>>>>>> Form changes for JS and JS changes for serialization of sort
 <ul class="statement-list">
 {% for issue in issues %}
     <h1>{{ issue }}</h1>
@@ -13,5 +20,6 @@
 </ul>
 {% endfor %}
     <input type="hidden" id="results" name="results" value="" />
+    <input type="submit" id="submit" name="submit" value="Submit!" />
 </form>
 {% endblock %}
