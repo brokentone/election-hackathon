@@ -5,10 +5,8 @@
 {% block content %}
 It works!
 <ul class="statement-list">
-{{ issues|length }}
 {% for issue in issues %}
-    <h1>I am getting issues</h1>
-    {{ issue }}
+    <h1>{{ issue }}</h1>
     {% for statement in statements %}
         <li>{{ statement }}</li>
     {% endfor %}
