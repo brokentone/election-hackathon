@@ -3,15 +3,16 @@
 {% block title %}Aging Candidate{% endblock %}
 
 {% block content %}
+<form name="rank_statements" action="no_idea" method="post">
 It works!
-<ul class="statement-list">
-{{ issues|length }}
 {% for issue in issues %}
-    <h1>I am getting issues</h1>
     {{ issue }}
+<ul class="statement-list">
     {% for statement in statements %}
         <li>{{ statement }}</li>
     {% endfor %}
-{% endfor %}
 </ul>
+{% endfor %}
+    <input type="hidden" id="results" name="results" value="" />
+</form>
 {% endblock %}
